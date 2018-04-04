@@ -7,7 +7,8 @@ import java.util.Scanner;
  * 설명: 이 프로그램은 년도를 세기로 바꿔줍니다.
  */
 
-public class YearToCentury main{
+public class YearToCentury {
+	
 	public static void main(String [] args)
 		{
 			int yr = 0;
@@ -16,7 +17,7 @@ public class YearToCentury main{
 			System.out.println("Input year: ");
 			yr = keyboard.nextInt();
 	
-			YearToCentury year = new YearToCentury(yr);
+			YearToCentury_this year = new YearToCentury_this(yr);
 			System.out.println(yr + " is " + year.calc_century() + "th century.");
 		}
 
