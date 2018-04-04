@@ -11,14 +11,14 @@ public class YearToCentury {
 	
 	public static void main(String [] args)
 		{
-			int yr = 0;
-			Scanner keyboard = new Scanner(System.in);
+			int yr = 0; //yr값을 지정
+			Scanner keyboard = new Scanner(System.in); //스캐너를 생성
 	
-			System.out.println("Input year: ");
-			yr = keyboard.nextInt();
+			System.out.println("Input year: "); //연도를 받아올 문자 출력
+			yr = keyboard.nextInt(); //입력값을 저장
 	
-			YearToCentury_this year = new YearToCentury_this(yr);
-			System.out.println(yr + " is " + year.calc_century() + "th century.");
+			YearToCentury_this year = new YearToCentury_this(yr); //받아온 년도값을 세기로 바꿔준다
+			System.out.println(yr + " is " + year.calc_century() + "th century."); //세기값을 출력
 		}
 
 
